@@ -32,8 +32,10 @@ ul, ol, li {
 	font-size: 12px;
 }
 .container {
-	margin: auto 10px;
-	padding: 10px;
+	margin: auto 50px;
+	padding: 40px;
+	border: solid 5px #390039;
+	box-shadow: rgba(0, 82, 0, 0.25) 0px 54px 55px, rgba(0, 82, 0, 0.12) 0px -12px 30px, rgba(0, 82, 0, 0.12) 0px 4px 6px, rgba(0, 82, 0, 0.17) 0px 12px 13px, rgba(0, 82, 0, 0.09) 0px -3px 5px;
 }
 a {
 	color: #390039;
@@ -53,21 +55,27 @@ a:hover {
 	border: solid 1px #555;
 	border-radius: 5px;
 }
+.menu ul {
 
+}
 h1 {
 	text-align: center;
 	font-variant: small-caps;
 	text-decoration: underline;
 }
+.back {
+
+}
 .back a {
 	font-size: 18px;
 	font-variant: small-caps;
-	color: blue !important; 
+	color: rgba(0,82,0, 0.8) !important; 
 	position: relative;
 	float: right;
-
+	border: solid 4px #390039;
+	padding: 5px;
 }
 .back a:hover {
-	color: rgba(0,82,0, 0.8) !important;
+	color: blue !important;
 	background-color: #eee !important;
 }
