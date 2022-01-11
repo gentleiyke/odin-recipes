@@ -72,7 +72,9 @@ h1 {
 	color: rgba(0,82,0, 0.8) !important; 
 	position: relative;
 	float: right;
-	border: solid 4px #390039;
+	border-right: solid 4px #390039;
+	border-top: solid 4px #390039;;
+	border-bottom: solid 4px #390039;;
 	padding: 5px;
 }
 .back a:hover {
